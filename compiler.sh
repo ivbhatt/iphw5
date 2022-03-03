@@ -1,3 +1,5 @@
+mkdir executables
+
 gcc code/tcp-client.c -o executables/tcp-client-c > /dev/null
 gcc code/tcp-concurrent-server.c -o executables/tcp-concurrent-server-c > /dev/null
 gcc code/tcp-iterative-server.c -o executables/tcp-iterative-server-c > /dev/null
